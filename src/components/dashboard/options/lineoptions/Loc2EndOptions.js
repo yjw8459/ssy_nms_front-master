@@ -1,0 +1,36 @@
+const Loc2EndOptions = [
+  {
+    number: "[end]",
+    group: "loc2-end",
+    in_index: "loc2-end-1",
+    line_index: "link-line-loc2-end-1",
+    x: 208,
+    y: 687,
+    width: 40,
+    in_local: "loc2",
+    in_pos_x: "end",
+    in_number: "1",
+    rotate: "ver",
+    animation: "forward",
+    line_type: "link-line",
+    in_status: "disabled",
+  },
+  {
+    number: "[connect]",
+    group: "loc2-end",
+    in_index: "loc2-end-1",
+    line_index: "connect-line-loc2-end-1",
+    x: 369,
+    y: 1164,
+    width: 300,
+    in_local: "loc2",
+    in_pos_x: "end",
+    in_number: "1",
+    rotate: "hor",
+    animation: "forward",
+    line_type: "connect-line",
+    in_status: "disabled",
+  },
+];
+
+export default Loc2EndOptions;

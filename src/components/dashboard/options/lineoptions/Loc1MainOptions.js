@@ -1,0 +1,47 @@
+const Loc1MainOptions = [
+  // 설명 : 수직구 입구 ~ 수직구 하부 상단의 라인입니다.
+  {
+    number: "scanner",
+    group: "loc1-main",
+    line_type: "link-line",
+    line_index: "link-line-loc1-main-scanner",
+    in_index: "loc1-start-1",
+    in_local: "loc1",
+    in_status: "disabled",
+    rotate: "ver",
+    animation: "forward",
+    x: 1242,
+    y: 925,
+    width: 32,
+  },
+  {
+    number: "cctv",
+    group: "loc1-main",
+    line_type: "link-line",
+    line_index: "link-line-loc1-main-cctv",
+    in_index: "loc1-gantry-1",
+    in_local: "loc1",
+    in_status: "disabled",
+    rotate: "ver",
+    animation: "forward",
+    x: 1119,
+    y: 726,
+    width: 8,
+  },
+  {
+    number: "main",
+    group: "loc1-main",
+    line_type: "main-line",
+    line_index: "connect-line-loc1-main",
+    in_index: "loc1-gantry-1",
+    in_local: "loc1",
+    in_status: "disabled",
+    rotate: "hor",
+    animation: "reverse",
+    x: 804,
+    y: 394,
+    width: 540,
+  },
+];
+
+export default Loc1MainOptions;
